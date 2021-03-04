@@ -4,8 +4,6 @@ Unattended bags are always a security concerns in public spaces. So it is necess
  
 ![Unattended bags](resources/bag.png)
 
-To better enable our front-line workers, here is Hermes, an AI-powered Computer Vision application that helps in early detection of Wildfires using reconnaissance drones.
-
 ## Citations
 
 * [aj-ames/Hermes-Deepstream](https://github.com/aj-ames/Hermes-Deepstream)
