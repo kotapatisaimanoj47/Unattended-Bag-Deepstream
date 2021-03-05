@@ -70,9 +70,9 @@ Next, clone the repository
 
 ```sh
 # Using HTTPS
-git clone https://github.com/aj-ames/Hermes-Deepstream.git
+git clone https://github.com/kotapatisaimanoj47/Unattended-Bag-Deepstream
 # Using SSH
-git clone git@github.com:aj-ames/Hermes-Deepstream.git
+git clone git@github.com:kotapatisaimanoj47/Unattended-Bag-Deepstream.git
 ```
 
 Finally, enable lfs and pull the yolo weights
@@ -92,17 +92,17 @@ First, build the application by running the following command:
 make clean && make -j$(nproc)
 ```
 
-This will generate the binary called `hermes-app`. This is a one-time step and you need to do this only when you make source-code changes.
+This will generate the binary called `unattended-app`. This is a one-time step and you need to do this only when you make source-code changes.
 
 Next, create a file called `inputsources.txt` and paste the path of videos or rtsp url.
 
 ```sh
-file:///home/astr1x/Videos/Wildfire1.mp4
+file:///home/saimanojkotapati/Videos/bags.mp4
 rtsp://admin:admin%40123@192.168.1.1:554/stream
 ```
 
 Now, run the application by running the following command:
 
 ```sh
-./hermes-app
+./unattended-app
 ```
